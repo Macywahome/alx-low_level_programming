@@ -1,12 +1,19 @@
+
 #include "main.h"
 
 /**
- * main - function
- * Return: 0
+ * print_alphabet - print the alphabest
+ * Return: return 0
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char c;
+		{
+		for (c = 'a'; c <= 'z'; c++)
+{
+			_putchar(c);
+		}
+			_putchar('\n');
+		}
 }
