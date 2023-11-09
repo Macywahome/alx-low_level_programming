@@ -10,7 +10,6 @@
 */
 
 int main(int argc, char *argv[])
-
 {
 	int num, j, result;
 
@@ -39,5 +38,5 @@ int main(int argc, char *argv[])
 		}
 	}
 	printf("%d\n", result);
-vi 100 - change.c	return (0);
+	return (0);
 }
