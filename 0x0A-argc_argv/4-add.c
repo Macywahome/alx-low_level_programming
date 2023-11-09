@@ -1,12 +1,12 @@
 #include <stdio.h>
-	#include <stdlib.h>
-	#include <ctype.h>
-	#include <string.h>
-	/**
-	 * check_num - main funtion
-	 * @str: array str
-	 * Return: Always 0 (Success)
-	 */
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+/**
+* check_num - main funtion
+* @str: array string
+* Return: Always 0 (Success)
+*/
 	int check_num(char *str)
 	{
 		/*Declaring variables*/
@@ -29,13 +29,12 @@
 		return (1);
 	}
 
-
-	/**
-	 * main - main function
-	 * @argc: Count arguments
-	 * @argv: Arguments
-	 * Return: Always 0 (Success)
-	 */
+/**
+* main - main function
+* @argc: Count arguments
+* @argv: Arguments
+* Return: Always 0 (Success)
+*/
 
 	int main(int argc, char *argv[])
 
@@ -70,7 +69,7 @@
 
 			count++;
 		}
-printf("%d\n", sum); /*print sum*/
+		printf("%d\n", sum); /*print sum*/
 
 
 		return (0);
